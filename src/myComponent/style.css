@@ -1,0 +1,65 @@
+.tab-outer{
+    position:"relative"
+}
+
+
+
+@media screen and (min-width: 1450px)  {
+    .tab-title{
+        margin-right: 400px;
+        margin-left: 50px;
+        font-size: 50px;
+     }
+     
+     .tab-link{
+         position: absolute;
+         top:90px ;
+         left:700px;
+         font-size: 20px;
+      
+     }
+     .tab-nav{
+        height: 150px;
+     }
+}
+
+
+@media screen and (max-width: 1450px) and (min-width:1200px){
+    .tab-title{
+        margin-right: 400px;
+        margin-left: 50px;
+        font-size: 50px;
+     }
+     
+     .tab-link{
+         position: absolute;
+         top:90px ;
+         left:500px;
+         font-size: 20px;
+      
+     }
+     .tab-nav{
+        height: 150px;
+     }
+}
+
+@media screen and (max-width: 1200px) and (min-width:1000px){
+    .tab-title{
+        margin-right: 400px;
+        margin-left: 50px;
+        font-size: 50px;
+     }
+     
+     .tab-link{
+         position: absolute;
+         top:90px ;
+         left:350px;
+         font-size: 20px;
+      
+     }
+     .tab-nav{
+        height: 150px;
+     }
+}
+
+
